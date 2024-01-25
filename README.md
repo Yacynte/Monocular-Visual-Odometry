@@ -1,6 +1,7 @@
 # Monocular (Inertial) Visual Odometry for Drones
 
-This project focuses on developing a monocular (inertial) visual odometry system for drone navigation. The goal is to provide accurate and robust localization capabilities using only visual and inertial sensor data.
+This project focuses on developing a monocular (inertial) visual odometry system for drone navigation. The goal is to provide accurate and robust localization capabilities using only visual and inertial sensor data. 
+Please Understand that this is an ongoing project and some files may be missing
 
 
 ## Overview
