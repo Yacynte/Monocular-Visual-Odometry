@@ -5,7 +5,7 @@
 
 import cv2
 import numpy as np
-from lib.optical_flow.rejection import brut_force, brut_force2, inlier
+from lib.rejection import brut_force, brut_force2, inlier
 
 
 

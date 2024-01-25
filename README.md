@@ -13,8 +13,8 @@ Monocular (inertial) visual odometry is a technique that combines information fr
 Follow these steps to install and set up the monocular (inertial) visual odometry system:
 
 1. Clone the repository: `git clone https://github.com/Yacynte/Monocular-Visual-Odometry.git`
-2. Install dependencies: `pip install -r requirements.txt`
-3. ...
+2. Install dependencies: OpenCV, numpy, matplotlib, tqdm `pip install -r requirements.txt`
+
 
 [Detailed Installation Guide](./docs/installation.md)
 
@@ -25,7 +25,7 @@ To use the monocular (inertial) visual odometry system with your drone, follow t
 
 1. Configure the system parameters in `config.yaml`.
 2. Provide input images and inertial sensor data.
-3. Run the main script: `python run_odometry.py`
+3. Run the main script: `python visualodometry.py`
 
 [Example Usage](./docs/usage.md)
 
@@ -43,7 +43,7 @@ The monocular (inertial) visual odometry system supports the following data form
 
 - Image formats: JPEG, PNG
 - Inertial sensor data: CSV format
-- Ground truth data: CSV, txt
+- Ground truth data: CSV, TXT
 
 [Input Data Guidelines](./docs/data_format.md)
 
@@ -52,6 +52,6 @@ The monocular (inertial) visual odometry system supports the following data form
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
 
-- [Result Image 1](./results/result_image_1.png)
-- [Result Image 2](./results/result_image_2.png)
+- [Result Image 1](./results/image_1.png)
+- [Result Image 2](./results/image_2.png)
 

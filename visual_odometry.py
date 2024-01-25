@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 from csv_poses import get_opt_gt, get_airsim_gt
 
 from scipy.spatial.transform import Rotation
-from lib.optical_flow.pyr_lucas_kanade import lucas_pyramidal
+from lib.pyr_lucas_kanade import lucas_pyramidal
 from tqdm import tqdm
 
 

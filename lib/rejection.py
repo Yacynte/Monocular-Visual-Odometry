@@ -4,7 +4,7 @@
 """---------- Technische Hochshule Wueryburg-Schweinfurt ---------"""
 
 import numpy as np
-from lib.optical_flow.ransac import estimate_foe
+from lib.ransac import estimate_foe
 
 def inlier(q2,d,S,n):
     foe, inlie = estimate_foe(d)
