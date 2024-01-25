@@ -52,6 +52,6 @@ The monocular (inertial) visual odometry system supports the following data form
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
 
-- [Result Image 1](./results/image_1.png)
-- [Result Image 2](./results/image_2.png)
+- [Result Image 1](./results/image_2.png)
+- [Result Image 2](./results/image_1.png)
 
