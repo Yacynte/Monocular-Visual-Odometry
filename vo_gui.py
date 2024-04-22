@@ -21,6 +21,7 @@ import matplotlib.pyplot as plt
 import visual_odometry  
 from plot_param import regression
 
+
 class VOApp:
     def __init__(self, root):
         self.root = root
