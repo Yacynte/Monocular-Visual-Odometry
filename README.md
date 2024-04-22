@@ -29,14 +29,17 @@ To use the monocular (inertial) visual odometry system with your drone, follow t
 3. Run the main script: `vo_gui.py`
 4. Configure the system parameters in the `gui`.
 
-[Example Usage](./docs/usage.md)
+[![Video](./docs/usage.png)](./docs/preview.mp4)
+[Example Usage](./docs/example_mvio.mp4)
 
 
 ## Configuration
 
 Customize the behavior of the system by modifying the parameters in the `gui`. This parameters includes settings such as number of features to track, Quality of optical flow, and filtering parameters.
 
-[Configuration Details](./docs/configuration.md)
+
+![Tello dji](./docs/config.png)
+Format: ![Alt Text](url)
 
 
 ## Data Format
@@ -53,6 +56,9 @@ The monocular (inertial) visual odometry system supports the following data form
 ## Results
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
+![Tello dji](./results/tello_line.png)
+Format: ![Alt Text](url)
+
 
 1. KITTI Dataset
 - [Translation motion Result](./results/kitti_curve.png)

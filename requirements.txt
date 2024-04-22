@@ -1,8 +1,0 @@
-install:
-1. Python
-2. OpenCV
-3. Numpy
-4. Matplolib
-5. SciPy
-6. sklearn
-7. tqdm
