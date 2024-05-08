@@ -24,10 +24,11 @@ Follow these steps to install and set up the monocular (inertial) visual odometr
 
 To use the monocular (inertial) visual odometry system with your drone, follow these steps:
 
-1. Provide input images and inertial sensor inthe Tello, UE or KITTI dataset folder in the same syntax as the other folders.
-2. Add the nade of vour path (your folder) in vo_gui.py
+1. Provide input images and inertial sensor in the Tello, UE or KITTI dataset folder in the same syntax as the other folders.
+2. Add the name of your folder in vo_gui.py
 3. Run the main script: `vo_gui.py`
 4. Configure the system parameters in the `gui`.
+5. Start the algorithm.
 
 [![Video](./docs/usage.png)](./docs/preview.mp4)
 [Example Usage](./docs/example_mvio.mp4)
@@ -39,7 +40,7 @@ Customize the behavior of the system by modifying the parameters in the `gui`. T
 
 
 ![Tello dji](./docs/config.png)
-Format: ![Alt Text](url)
+
 
 
 ## Data Format
@@ -50,14 +51,14 @@ The monocular (inertial) visual odometry system supports the following data form
 - Inertial sensor data: CSV, TXT
 - Ground truth data: CSV, TXT
 
-[Input Data Guidelines](./docs/data_format.md)
+<!-- [Input Data Guidelines](./docs/data_format.md) -->
 
 
 ## Results
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
 ![Tello dji](./results/tello_line.png)
-Format: ![KITTI dataset](./results/kitti_curve.png)
+![KITTI dataset](./results/kitti_curve.png)
 
 
 1. KITTI Dataset
@@ -77,3 +78,16 @@ Format: ![KITTI dataset](./results/kitti_curve.png)
 - [Translation motion Result](./results/ue_square1.png)
 
 
+## License
+MIT License
+
+Copyright (c) [2024] [Batchaya Yacynte]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish and/or distribute copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve the implementation.
