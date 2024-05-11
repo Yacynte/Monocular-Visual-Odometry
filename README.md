@@ -14,7 +14,7 @@ Monocular (inertial) visual odometry is a technique that combines information fr
 Follow these steps to install and set up the monocular (inertial) visual odometry system:
 
 1. Clone the repository: `git clone https://github.com/Yacynte/Monocular-Visual-Odometry.git`
-2. Install dependencies: OpenCV, numpy, matplotlib, tqdm `pip install -r requirements.txt`
+2. Install dependencies: OpenCV, numpy, matplotlib, tqdm `pip install -r docs/requirements.txt`
 
 
 [Detailed Installation Guide](./docs/installation.md)
