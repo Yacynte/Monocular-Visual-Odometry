@@ -58,24 +58,37 @@ The monocular (inertial) visual odometry system supports the following data form
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
 ![Tello dji](./results/tello_line.png)
-![KITTI dataset](./results/kitti_curve.png)
+![KITTI dataset](./results/kitti_path.png)
 
 
-1. KITTI Dataset
-- [Translation motion Result](./results/kitti_curve.png)
+1. Similated Data from Unreal Engine
 
-- [Rotation motion Result](./results/kitti_rotation1.png)
+- Error: translation 1.28%, rotation 0.13°/m
 
-- Error: translation 1.2%, rotation 0.015°/m
-- [Translaation Error of Image 1](./results/kitti_error_model.png)
+- [Motion Path](./results/tello_square.png)
 
-- [Translaation Error of Image 1](./results/kitti_rotation_err.png)
+- [Translation motion](./results/translation_square.png)
 
-2. TELLO DJI Data
-- [Translation motion Result](./results/tello_line.png)
+- [Rotation motion](./results/rotation_square.png)
 
-3. Similated Data from Unreal Engine
-- [Translation motion Result](./results/ue_square1.png)
+- [Error Measurement](./results/Error_kitti.png)
+
+2. Tello Dataset
+
+- Error: translation 0.94%, rotation 0.015°/m
+
+- [Motion Path](./results/tello_line.png)
+
+- [Translation motion](./results/translation_tello.png)
+
+- [Rotation motion](./results/rotation_tello.png)
+
+- [Error Measurement](./results/Error_tello.png)
+
+
+3. KITTI Data
+- [See](./docs/results)
+
 
 
 ## License
