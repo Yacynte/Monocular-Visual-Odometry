@@ -57,13 +57,14 @@ The monocular (inertial) visual odometry system supports the following data form
 ## Results
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
-![Tello dji](./results/tello_line.png)
+![Simulated Path](./results/tello_square.png)
+![Tello dji Path](./results/tello_line.png)
 ![KITTI dataset](./results/kitti_path.png)
 
 
 1. Similated Data from Unreal Engine
 
-- Error: translation 1.28%, rotation 0.13°/m
+- Error, RMSE/meter: translation 1.28%, rotation 0.13°/m
 
 - [Motion Path](./results/tello_square.png)
 
@@ -71,11 +72,11 @@ Here are some visualizations demonstrating the results obtained by the monocular
 
 - [Rotation motion](./results/rotation_square.png)
 
-- [Error Measurement](./results/Error_kitti.png)
+- [Error Measurement](./results/Error_square.png)
 
 2. Tello Dataset
 
-- Error: translation 0.94%, rotation 0.015°/m
+- Error, RMSE/meter: translation 5.32%, rotation 0.49°/m
 
 - [Motion Path](./results/tello_line.png)
 
@@ -87,7 +88,15 @@ Here are some visualizations demonstrating the results obtained by the monocular
 
 
 3. KITTI Data
-- [See](./docs/results)
+- Error, RMSE/meter: translation 0.94%, rotation 0.015°/m
+
+- [Motion Path](./results/kitti_path.png)
+
+- [Translation motion](./results/translation_kitti.png)
+
+- [Rotation motion](./results/rotation_kitti.png)
+
+- [Error Measurement](./results/Error_kitti.png)
 
 
 
