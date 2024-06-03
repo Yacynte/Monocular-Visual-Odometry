@@ -57,8 +57,14 @@ The monocular (inertial) visual odometry system supports the following data form
 ## Results
 
 Here are some visualizations demonstrating the results obtained by the monocular (inertial) visual odometry system:
+
+### Simulated Path
 ![Simulated Path](./results/tello_square.png)
+
+### Tello dji Path
 ![Tello dji Path](./results/tello_line.png)
+
+### KITTI dataset path
 ![KITTI dataset](./results/kitti_path.png)
 
 
